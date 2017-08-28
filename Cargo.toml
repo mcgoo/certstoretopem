@@ -1,0 +1,12 @@
+[package]
+name = "certstoretopem"
+version = "0.1.0"
+authors = ["Jim McGrath <jimmc2@gmail.com>"]
+
+[dependencies]
+schannel = "0.1.7"
+error-chain = "0.10"
+base64 = "0.6"
+
+[replace]
+"schannel:0.1.7" = { path = "../schannel-rs" }
