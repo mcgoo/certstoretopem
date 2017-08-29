@@ -121,7 +121,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 [[package]]
 name = "schannel"
 version = "0.1.7"
-source = "git+https://github.com/mcgoo/schannel-rs#9e6c2e12a878703935bf264070be071dae6c4916"
+source = "git+https://github.com/mcgoo/schannel-rs#452a48789142300a375e5efaa5e43be8cd3723a4"
 dependencies = [
  "advapi32-sys 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "crypt32-sys 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)",
