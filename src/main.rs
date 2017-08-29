@@ -28,7 +28,6 @@ fn run() -> Result<()> {
         let is_server_auth = match valid_uses {
             ValidUses::All => true,
             ValidUses::OIDs(ref oids) => oids.contains(&"1.3.6.1.5.5.7.3.1".to_owned()),
-            ValidUses::None => false,
         };
 
         if !is_server_auth {
