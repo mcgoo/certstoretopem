@@ -1,4 +1,6 @@
-# certstoretopem - Dump Windows Certificate Store in PEM suitable for use with OpenSSL 
+# certstoretopem - Dump Windows Certificate Store in PEM suitable for use with OpenSSL [![Build status](https://ci.appveyor.com/api/projects/status/4ibw0tvtokn9b1k8/branch/master?svg=true)](https://ci.appveyor.com/project/mcgoo/certstoretopem/branch/master)
+
+
 
 When run, `certstoretopem` dumps all certificates that are valid for server authentication from the user's root certificate store to stdout in PEM format.
 
