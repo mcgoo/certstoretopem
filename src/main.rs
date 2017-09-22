@@ -27,7 +27,7 @@ fn run() -> Result<()> {
         // pub const szOID_PKIX_KP_SERVER_AUTH: &'static str = "1.3.6.1.5.5.7.3.1"
         let is_server_auth = match valid_uses {
             ValidUses::All => true,
-            ValidUses::OIDs(ref oids) => oids.contains(&"1.3.6.1.5.5.7.3.1".to_owned()),
+            ValidUses::Oids(ref oids) => oids.contains(&"1.3.6.1.5.5.7.3.1".to_owned()),
         };
 
         if !is_server_auth {

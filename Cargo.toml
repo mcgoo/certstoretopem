@@ -4,9 +4,7 @@ version = "0.1.0"
 authors = ["Jim McGrath <jimmc2@gmail.com>"]
 
 [dependencies]
-# pending changes going upstream
-schannel = { git = "https://github.com/mcgoo/schannel-rs" }
-#schannel = "0.1.7"
+schannel = "0.1.8"
 
 error-chain = "0.10"
 base64 = "0.6"
